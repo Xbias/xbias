@@ -41,9 +41,7 @@ Measure the divergence between the groups using a distance metric (L1, L2, or co
 
 ## 🧪 Example Usage
 ```python
-Mostrar siempre los detalles
 
-Copiar
 from xbias import compute_xbias
 from sklearn.linear_model import LogisticRegression
 import numpy as np
@@ -65,12 +63,6 @@ print("X-Bias (L1):", xbias_score)
 
 ```
 ## 📊 Supported Distance Metrics
-L1 Distance (Manhattan)
-Measures the sum of absolute differences between group attribution vectors.
-
-L2 Distance (Euclidean)
-Measures the straight-line distance between group attribution vectors.
-
 Cosine Distance
 Measures the angle (dissimilarity) between group attribution vectors.
 
